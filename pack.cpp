@@ -330,7 +330,10 @@ int main()
             {
                 pthread_cancel(tid);
             }
-            readNumber();
+            if(net!=512)
+            {
+               readNumber();
+            }
         }
         sleep(15);
     }

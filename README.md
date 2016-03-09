@@ -7,5 +7,5 @@
 
 用./ipclient 自动读取账号上网，以及切换账号
 
-Start.ini表示读取的索引，保存上次上网账号在users.txt文件中的行数
-Month.ini表示存储月份，新的一个月Start.ini会清除，从第一行开始读
+运行时会在当前目录生成两个配置文件：Start.ini表示读取的索引，保存上次上网账号在users.txt文件中的行数
+，Month.ini表示存储月份，新的一个月Start.ini会清除，从第一行开始读

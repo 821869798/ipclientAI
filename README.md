@@ -13,7 +13,7 @@
 # mac open
 桂电宽带预拨号
 
-编译命令 gcc main.cpp -o mac_open
+编译命令 gcc main.c -o mac_open
 
 使用方法,命令行输入: ./mac_open 参数1 参数2 参数3 
 
